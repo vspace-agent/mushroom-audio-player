@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mushroom House · Audio Narrative</title>
+<link rel="stylesheet" href="style.css?v=3">
+<script src="downloads.js?v=2" defer></script>
+<script src="app.js?v=3" defer></script>
+</head>
+<body>
+<main>
+<header class="masthead">
+  <div>
+    <p class="eyebrow">MUSHROOM HOUSE 🍄 STUDIO / AUDIO LAB</p>
+    <h1>Audio Narrative<span class="cursor">_</span></h1>
+    <p class="intro">Explore stories and musical scenes across interchangeable audio-library repositories.</p>
+  </div>
+  <img class="hero-icon" src="assets/musicStudio_06.png" alt="">
+</header>
+<div class="library-picker">
+  <label for="library-select">Available libraries</label>
+  <select id="library-select">
+    <option value="catalog.json">Mushroom House Audio Library · 469 recordings</option>
+    
+    <option value="">Custom catalog URL</option>
+  </select>
+</div>
+<form id="catalog-form" class="catalog-form">
+  <label for="catalog-url">Library catalog URL</label>
+  <input id="catalog-url" type="url" placeholder="https://example.org/catalog.json" required>
+  <button type="submit">Connect library</button>
+</form>
+<p id="catalog-error" class="catalog-error" role="alert"></p>
+<div class="tabs" role="tablist" aria-label="Player views">
+  <button id="tab-stories" type="button" role="tab" aria-selected="true">Stories</button>
+  <button id="tab-search" type="button" role="tab" aria-selected="false">Search</button>
+</div>
+<div class="toolbar">
+  <span id="summary">Loading recordings…</span>
+  <button id="collapse-all" class="quiet" type="button">Collapse all</button>
+</div>
+<section id="stories-panel" role="tabpanel" aria-labelledby="tab-stories">
+  <div id="catalog"></div>
+</section>
+<section id="search-panel" role="tabpanel" aria-labelledby="tab-search" hidden>
+  <div class="search-controls">
+    <label>Search music <input id="search-text" type="search" placeholder="saxophone warm autumn"></label>
+    <label>Style <select id="filter-style"><option value="">Any</option><option>jazz</option><option>classical</option><option>chamber</option><option>ambient</option></select></label>
+    <label>Instrument <select id="filter-instrument"><option value="">Any</option><option>saxophone</option><option>piano</option><option>cello</option><option>violin</option><option>guitar</option><option>bass</option><option>drums</option></select></label>
+    <label>Mood <select id="filter-mood"><option value="">Any</option><option>gentle</option><option>playful</option><option>warm</option><option>tense</option><option>romantic</option></select></label>
+    <label>Min BPM <input id="bpm-min" type="number" min="1" max="400" placeholder="Min"></label>
+    <label>Max BPM <input id="bpm-max" type="number" min="1" max="400" placeholder="Max"></label>
+  </div>
+  <p id="search-count" class="search-count"></p>
+  <div id="search-results"></div>
+</section>
+
+</main>
+</body>
+</html>
