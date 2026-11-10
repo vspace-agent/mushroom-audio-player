@@ -174,10 +174,45 @@ function makeScene(scene) {
   return section;
 }
 
+function storyTimestamp(story) {
+  const timestamps = story.scenes.flatMap(scene =>
+    scene.recordings.map(recording => Number(recording.timestamp))
+  ).filter(Number.isFinite);
+  return timestamps.length ? Math.max(...timestamps) : null;
+}
+
+function orderedStories() {
+  const mode = document.querySelector('#story-sort').value;
+  return [...catalogData.stories].sort((a, b) => {
+    if (mode === 'az' || mode === 'za') {
+      const comparison = a.title.localeCompare(b.title, undefined, {numeric: true});
+      return (mode === 'az' ? comparison : -comparison) || a.id.localeCompare(b.id);
+    }
+    const aTime = storyTimestamp(a);
+    const bTime = storyTimestamp(b);
+    if (aTime === null && bTime !== null) return 1;
+    if (bTime === null && aTime !== null) return -1;
+    const comparison = (aTime ?? 0) - (bTime ?? 0);
+    return (mode === 'newest' ? -comparison : comparison) ||
+           a.title.localeCompare(b.title, undefined, {numeric: true});
+  });
+}
+
+function storyPreview(story) {
+  if (story.description?.trim()) return story.description.trim();
+  // The legacy catalog contains no narrative descriptions. Show its actual
+  // scene titles as a truthful, readable overview instead of inventing prose.
+  const titles = [...story.scenes]
+    .sort((a, b) => a.order - b.order)
+    .map(scene => scene.title.replace(/^Track\\s*\\d+\\s*[-–:]?\\s*/i, '').trim())
+    .filter(Boolean);
+  return titles.slice(0, 5).join(' · ') + (titles.length > 5 ? ' …' : '');
+}
+
 function renderStories() {
   stopPlayback();
   catalogElement.replaceChildren();
-  for (const story of catalogData.stories) {
+  for (const story of orderedStories()) {
     const section = element('section', 'theme-section');
     const header = element('div', 'theme-header');
     const toggle = element('button', 'theme-toggle');
@@ -206,7 +241,8 @@ function renderStories() {
       }
     };
     header.append(toggle, play);
-    section.append(header, body);
+    const preview = element('p', 'story-preview', storyPreview(story));
+    section.append(header, preview, body);
     catalogElement.append(section);
   }
 }
@@ -322,6 +358,9 @@ async function loadCatalog(url) {
   searchScenes();
 }
 
+document.querySelector('#story-sort').addEventListener('change', () => {
+  if (catalogData) renderStories();
+});
 document.querySelector('#tab-stories').onclick = () => showTab('stories');
 document.querySelector('#tab-search').onclick = () => showTab('search');
 document.querySelector('#collapse-all').onclick = () => {

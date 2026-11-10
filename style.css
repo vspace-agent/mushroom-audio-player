@@ -96,3 +96,14 @@ textarea{width:100%;padding:10px 12px;background:#fff;border:1px solid #c8d4ca;b
 .library-picker{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 12px}
 .library-picker label{font:12px var(--heading);color:var(--accent)}
 .library-picker select{max-width:100%;min-width:260px;padding:9px 12px;border:1px solid #b7c8bc;border-radius:5px;background:var(--paper);color:var(--ink)}
+
+/* Story overview and deterministic batch ordering */
+.story-sort-label{display:flex;align-items:center;gap:8px;margin-left:auto;font:12px var(--heading);white-space:nowrap}
+.story-sort-label select{padding:8px;border:1px solid var(--line);border-radius:5px;background:white;color:var(--ink);font:12px var(--heading)}
+.story-preview{margin:0;padding:0 18px 14px 48px;font-size:12px;line-height:1.6;color:var(--muted)}
+.theme-section.open>.story-preview{padding-bottom:9px}
+@media(max-width:650px){
+  .toolbar{flex-wrap:wrap}
+  .story-sort-label{margin-left:0;order:2;width:100%;justify-content:space-between}
+  .story-preview{padding:0 12px 12px 35px}
+}
