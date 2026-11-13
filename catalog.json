@@ -9377,6 +9377,1460 @@
           ]
         }
       ]
+    },
+    {
+      "id": "the_dark_november_morning_before_departure",
+      "title": "The Dark November Morning Before Departure",
+      "description": "On a very dark November morning, two lovers wake beside each other in bed, their hands still holding together. One has already spent two hours awake, unable to return to sleep because thoughts of work keep troubling the mind; the other has just emerged from an unusually vivid dream about a childhood friend. Outside, the morning remains cold and almost lightless, while the warmth of their shared bed slowly gives way to the ordinary necessities of departure. One prepares tea in the kitchen, listening to the familiar sound of the other taking a shower in the bathroom. They know that life will keep them apart for a long while, and neither can make the morning last. Their tenderness remains in small gestures, familiar sounds, and the quiet knowledge of having been together.",
+      "scenes": [
+        {
+          "id": "the_dark_november_morning_before_departure/track_01_batch_story/73bb8c7ec58f1295",
+          "title": "Track 01 Batch Story",
+          "order": 1,
+          "prompt": "On a very dark November morning, two lovers wake beside each other in bed, their hands still holding together. One has already spent two hours awake, unable to return to sleep because thoughts of work keep troubling the mind; the other has just emerged from an unusually vivid dream about a childhood friend. Outside, the morning remains cold and almost lightless, while the warmth of their shared bed slowly gives way to the ordinary necessities of departure. One prepares tea in the kitchen, listening to the familiar sound of the other taking a shower in the bathroom. They know that life will keep them apart for a long while, and neither can make the morning last. Their tenderness remains in small gestures, familiar sounds, and the quiet knowledge of having been together.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_01_batch_story/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_01.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_01_batch_story/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_02.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_01_batch_story/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_01_batch_story/track_01_batch_story_03.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_01_batch_story/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_01_batch_story/track_01_batch_story_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_01_batch_story/track_01_batch_story_01.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_02_two_hands_in_the_dark/1a2b4491445d4f3e",
+          "title": "Track 02 Two Hands In The Dark",
+          "order": 2,
+          "prompt": "Intimate instrumental cool jazz, 62 BPM, breathy tenor saxophone, warm upright bass and delicate brushed drums. Slow continuous pulse, tender descending melody, rich minor seventh harmonies, restrained dynamics, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_01.flac"
+                }
+              ],
+              "filename": "track_02_two_hands_in_the_dark_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_02.flac"
+                }
+              ],
+              "filename": "track_02_two_hands_in_the_dark_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_03.flac"
+                }
+              ],
+              "filename": "track_02_two_hands_in_the_dark_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_02_two_hands_in_the_dark/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_02_two_hands_in_the_dark/track_02_two_hands_in_the_dark_01.flac"
+                }
+              ],
+              "filename": "track_02_two_hands_in_the_dark_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_03_two_hours_without_sleep/8d8f988ee6bd79a7",
+          "title": "Track 03 Two Hours Without Sleep",
+          "order": 3,
+          "prompt": "Melancholic instrumental downtempo jazz, 65 BPM, warm electric piano, deep rounded bass and soft brushed percussion. Steady hypnotic groove, repeating minor-key piano motif, subtle unresolved harmonies, intimate dark atmosphere, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_01.flac"
+                }
+              ],
+              "filename": "track_03_two_hours_without_sleep_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_02.flac"
+                }
+              ],
+              "filename": "track_03_two_hours_without_sleep_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_03.flac"
+                }
+              ],
+              "filename": "track_03_two_hours_without_sleep_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_03_two_hours_without_sleep/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_03_two_hours_without_sleep/track_03_two_hours_without_sleep_01.flac"
+                }
+              ],
+              "filename": "track_03_two_hours_without_sleep_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_04_the_childhood_friend_in_a_dream/14e5a827bc5ebcde",
+          "title": "Track 04 The Childhood Friend In A Dream",
+          "order": 4,
+          "prompt": "Dreamlike instrumental chamber music, 60 BPM, lyrical solo violin, warm cello and gentle piano. Flowing legato melody, nostalgic major-minor harmonies, soft measured pulse, delicate dynamics, natural chamber acoustics, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_01.flac"
+                }
+              ],
+              "filename": "track_04_the_childhood_friend_in_a_dream_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_02.flac"
+                }
+              ],
+              "filename": "track_04_the_childhood_friend_in_a_dream_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_03.flac"
+                }
+              ],
+              "filename": "track_04_the_childhood_friend_in_a_dream_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_04_the_childhood_friend_in_a_dream/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_04_the_childhood_friend_in_a_dream/track_04_the_childhood_friend_in_a_dream_01.flac"
+                }
+              ],
+              "filename": "track_04_the_childhood_friend_in_a_dream_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_05_the_warmth_between_two_pillows/82016dcb6643d2fa",
+          "title": "Track 05 The Warmth Between Two Pillows",
+          "order": 5,
+          "prompt": "Tender instrumental soul jazz, 68 BPM, mellow tenor saxophone, soft electric piano, rounded bass and gentle brushed drums. Relaxed steady groove, affectionate lyrical phrases, rich major seventh harmonies, intimate warm production, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_01.flac"
+                }
+              ],
+              "filename": "track_05_the_warmth_between_two_pillows_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_02.flac"
+                }
+              ],
+              "filename": "track_05_the_warmth_between_two_pillows_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_03.flac"
+                }
+              ],
+              "filename": "track_05_the_warmth_between_two_pillows_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_05_the_warmth_between_two_pillows/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_05_the_warmth_between_two_pillows/track_05_the_warmth_between_two_pillows_01.flac"
+                }
+              ],
+              "filename": "track_05_the_warmth_between_two_pillows_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_06_november_has_not_woken/966cd899e5a5710c",
+          "title": "Track 06 November Has Not Woken",
+          "order": 6,
+          "prompt": "Atmospheric instrumental Japanese-inspired chamber music, 58 BPM, expressive shakuhachi flute and soft sustained cello. Spacious pentatonic melody, gentle measured pulse, restrained dynamics, dark misty morning atmosphere, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_01.flac"
+                }
+              ],
+              "filename": "track_06_november_has_not_woken_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_02.flac"
+                }
+              ],
+              "filename": "track_06_november_has_not_woken_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_06_november_has_not_woken/track_06_november_has_not_woken_03.flac"
+                }
+              ],
+              "filename": "track_06_november_has_not_woken_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_06_november_has_not_woken/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_06_november_has_not_woken/track_06_november_has_not_woken_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_06_november_has_not_woken/track_06_november_has_not_woken_01.flac"
+                }
+              ],
+              "filename": "track_06_november_has_not_woken_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_07_the_kettle_and_the_shower/b060bbb234468e8b",
+          "title": "Track 07 The Kettle And The Shower",
+          "order": 7,
+          "prompt": "Gentle instrumental bossa nova jazz, 74 BPM, warm nylon-string guitar, mellow electric piano, soft bass and delicate brushed percussion. Quiet syncopated groove, simple repeating melody, intimate domestic warmth, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_01.flac"
+                }
+              ],
+              "filename": "track_07_the_kettle_and_the_shower_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_02.flac"
+                }
+              ],
+              "filename": "track_07_the_kettle_and_the_shower_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_03.flac"
+                }
+              ],
+              "filename": "track_07_the_kettle_and_the_shower_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_07_the_kettle_and_the_shower/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_07_the_kettle_and_the_shower/track_07_the_kettle_and_the_shower_01.flac"
+                }
+              ],
+              "filename": "track_07_the_kettle_and_the_shower_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_08_tea_for_the_departure/e2899704a0631913",
+          "title": "Track 08 Tea For The Departure",
+          "order": 8,
+          "prompt": "Reflective instrumental chamber jazz, 66 BPM, lyrical clarinet, warm acoustic piano and upright bass. Slow relaxed swing, delicate descending phrases, rich minor-to-major harmonies, restrained bittersweet expression, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_01.flac"
+                }
+              ],
+              "filename": "track_08_tea_for_the_departure_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_02.flac"
+                }
+              ],
+              "filename": "track_08_tea_for_the_departure_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_08_tea_for_the_departure/track_08_tea_for_the_departure_03.flac"
+                }
+              ],
+              "filename": "track_08_tea_for_the_departure_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_08_tea_for_the_departure/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_08_tea_for_the_departure/track_08_tea_for_the_departure_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_08_tea_for_the_departure/track_08_tea_for_the_departure_01.flac"
+                }
+              ],
+              "filename": "track_08_tea_for_the_departure_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_09_the_days_we_will_not_share/6bf9d2ce4988292f",
+          "title": "Track 09 The Days We Will Not Share",
+          "order": 9,
+          "prompt": "Melancholic instrumental romantic chamber music, 64 BPM, expressive solo cello, lyrical violins and warm piano. Broad sustained melody, gentle rhythmic movement, rich minor harmonies, gradual emotional crescendo followed by soft resolution, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_01.flac"
+                }
+              ],
+              "filename": "track_09_the_days_we_will_not_share_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_02.flac"
+                }
+              ],
+              "filename": "track_09_the_days_we_will_not_share_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_03.flac"
+                }
+              ],
+              "filename": "track_09_the_days_we_will_not_share_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_09_the_days_we_will_not_share/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_09_the_days_we_will_not_share/track_09_the_days_we_will_not_share_01.flac"
+                }
+              ],
+              "filename": "track_09_the_days_we_will_not_share_01"
+            }
+          ]
+        },
+        {
+          "id": "the_dark_november_morning_before_departure/track_10_the_morning_keeps_our_warmth/a9bc7345ce74c510",
+          "title": "Track 10 The Morning Keeps Our Warmth",
+          "order": 10,
+          "prompt": "Tender instrumental downtempo jazz, 65 BPM, mellow tenor saxophone, intimate electric piano, deep warm bass and soft brushed percussion. Slow continuous groove, affectionate returning melody, rich major seventh harmonies, gentle unresolved final cadence, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_01.flac"
+                }
+              ],
+              "filename": "track_10_the_morning_keeps_our_warmth_01"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_02.flac"
+                }
+              ],
+              "filename": "track_10_the_morning_keeps_our_warmth_02"
+            },
+            {
+              "id": "studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794375461.473311,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_0ca3495eea82425f/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_03.flac"
+                }
+              ],
+              "filename": "track_10_the_morning_keeps_our_warmth_03"
+            },
+            {
+              "id": "studio_batch_360e6be6427247ee/track_10_the_morning_keeps_our_warmth/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794377772.6967418,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_360e6be6427247ee/track_10_the_morning_keeps_our_warmth/track_10_the_morning_keeps_our_warmth_01.flac"
+                }
+              ],
+              "filename": "track_10_the_morning_keeps_our_warmth_01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roses_where_winter_lives",
+      "title": "Roses Where Winter Lives",
+      "description": "Humans leave roses in places where blooming has already ended: against a dead trunk in the forest, or scattered across a cold concrete terrace facing the river. The flowers do not belong to spring there; they are left where winter already lives, as if carrying a message into a season that cannot answer back. Their color becomes more intense because everything around them is turning quiet, bare, and grey. This batch follows that gesture through different small scenes of farewell, stillness, and endurance. The music should remain intimate and clear, allowing the image of the roses to stay at the center.",
+      "scenes": [
+        {
+          "id": "roses_where_winter_lives/track_01_batch_story/fd93626c0fb1ec8a",
+          "title": "Track 01 Batch Story",
+          "order": 1,
+          "prompt": "Humans leave roses in places where blooming has already ended: against a dead trunk in the forest, or scattered across a cold concrete terrace facing the river. The flowers do not belong to spring there; they are left where winter already lives, as if carrying a message into a season that cannot answer back. Their color becomes more intense because everything around them is turning quiet, bare, and grey. This batch follows that gesture through different small scenes of farewell, stillness, and endurance. The music should remain intimate and clear, allowing the image of the roses to stay at the center.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_01_batch_story/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_01_batch_story/track_01_batch_story_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_01_batch_story/track_01_batch_story_01.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_01_batch_story/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_01.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_01_batch_story/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_02.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_01_batch_story/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_01_batch_story/track_01_batch_story_03.flac"
+                }
+              ],
+              "filename": "track_01_batch_story_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_02_roses_against_the_dead_trunk/f19e2285a46f998d",
+          "title": "Track 02 Roses Against The Dead Trunk",
+          "order": 2,
+          "prompt": "Reflective instrumental chamber jazz, 66 BPM, mellow tenor saxophone, warm upright bass and delicate brushed drums. Slow steady pulse, descending lyrical melody, rich minor seventh harmonies, intimate restrained atmosphere, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_02_roses_against_the_dead_trunk/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_01.flac"
+                }
+              ],
+              "filename": "track_02_roses_against_the_dead_trunk_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_01.flac"
+                }
+              ],
+              "filename": "track_02_roses_against_the_dead_trunk_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_02.flac"
+                }
+              ],
+              "filename": "track_02_roses_against_the_dead_trunk_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_02_roses_against_the_dead_trunk/track_02_roses_against_the_dead_trunk_03.flac"
+                }
+              ],
+              "filename": "track_02_roses_against_the_dead_trunk_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_03_where_blooming_has_ended/431883c4d17daef7",
+          "title": "Track 03 Where Blooming Has Ended",
+          "order": 3,
+          "prompt": "Tender instrumental romantic chamber music, 62 BPM, expressive solo cello and soft piano accompaniment. Measured pulse, sustained minor-key melody, gentle harmonic movement, solemn autumn feeling, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_03_where_blooming_has_ended/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_01.flac"
+                }
+              ],
+              "filename": "track_03_where_blooming_has_ended_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_01.flac"
+                }
+              ],
+              "filename": "track_03_where_blooming_has_ended_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_02.flac"
+                }
+              ],
+              "filename": "track_03_where_blooming_has_ended_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_03_where_blooming_has_ended/track_03_where_blooming_has_ended_03.flac"
+                }
+              ],
+              "filename": "track_03_where_blooming_has_ended_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_04_humans_leave_them_here/aa14b0141fcf14aa",
+          "title": "Track 04 Humans Leave Them Here",
+          "order": 4,
+          "prompt": "Atmospheric instrumental downtempo jazz, 65 BPM, warm electric piano, deep rounded bass and soft brushed percussion. Slow hypnotic groove, repeating melancholic motif, subtle tension and release, intimate dark production, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_04_humans_leave_them_here/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_04_humans_leave_them_here/track_04_humans_leave_them_here_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_04_humans_leave_them_here/track_04_humans_leave_them_here_01.flac"
+                }
+              ],
+              "filename": "track_04_humans_leave_them_here_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_04_humans_leave_them_here/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_01.flac"
+                }
+              ],
+              "filename": "track_04_humans_leave_them_here_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_04_humans_leave_them_here/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_02.flac"
+                }
+              ],
+              "filename": "track_04_humans_leave_them_here_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_04_humans_leave_them_here/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_04_humans_leave_them_here/track_04_humans_leave_them_here_03.flac"
+                }
+              ],
+              "filename": "track_04_humans_leave_them_here_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_05_the_message_for_winter/c6e9d6f6d41d914a",
+          "title": "Track 05 The Message For Winter",
+          "order": 5,
+          "prompt": "Gentle instrumental cool jazz, 68 BPM, breathy tenor saxophone, mellow electric piano and soft bass. Continuous relaxed groove, flowing melodic phrases, warm major-minor harmonies, thoughtful spacious mood, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_05_the_message_for_winter/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_05_the_message_for_winter/track_05_the_message_for_winter_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_05_the_message_for_winter/track_05_the_message_for_winter_01.flac"
+                }
+              ],
+              "filename": "track_05_the_message_for_winter_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_05_the_message_for_winter/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_01.flac"
+                }
+              ],
+              "filename": "track_05_the_message_for_winter_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_05_the_message_for_winter/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_02.flac"
+                }
+              ],
+              "filename": "track_05_the_message_for_winter_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_05_the_message_for_winter/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_05_the_message_for_winter/track_05_the_message_for_winter_03.flac"
+                }
+              ],
+              "filename": "track_05_the_message_for_winter_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_06_petals_on_the_concrete_terrace/83cc39ffa28c928c",
+          "title": "Track 06 Petals On The Concrete Terrace",
+          "order": 6,
+          "prompt": "Quiet instrumental modern chamber music, 64 BPM, lyrical violin, soft cello and restrained piano. Clear measured rhythm, delicate descending phrases, cool harmonies, open winter air, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_06_petals_on_the_concrete_terrace/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_01.flac"
+                }
+              ],
+              "filename": "track_06_petals_on_the_concrete_terrace_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_01.flac"
+                }
+              ],
+              "filename": "track_06_petals_on_the_concrete_terrace_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_02.flac"
+                }
+              ],
+              "filename": "track_06_petals_on_the_concrete_terrace_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_06_petals_on_the_concrete_terrace/track_06_petals_on_the_concrete_terrace_03.flac"
+                }
+              ],
+              "filename": "track_06_petals_on_the_concrete_terrace_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_07_river_under_grey_sky/297077c7c693e549",
+          "title": "Track 07 River Under Grey Sky",
+          "order": 7,
+          "prompt": "Melancholic instrumental smooth jazz, 70 BPM, expressive tenor saxophone, warm electric piano, deep bass and delicate brushed drums. Steady gentle groove, long flowing melody, rich seventh chords, calm reflective atmosphere, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_07_river_under_grey_sky/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_07_river_under_grey_sky/track_07_river_under_grey_sky_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_07_river_under_grey_sky/track_07_river_under_grey_sky_01.flac"
+                }
+              ],
+              "filename": "track_07_river_under_grey_sky_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_07_river_under_grey_sky/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_01.flac"
+                }
+              ],
+              "filename": "track_07_river_under_grey_sky_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_07_river_under_grey_sky/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_02.flac"
+                }
+              ],
+              "filename": "track_07_river_under_grey_sky_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_07_river_under_grey_sky/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_07_river_under_grey_sky/track_07_river_under_grey_sky_03.flac"
+                }
+              ],
+              "filename": "track_07_river_under_grey_sky_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_08_red_against_the_cold/60ea1cfb75e23b16",
+          "title": "Track 08 Red Against The Cold",
+          "order": 8,
+          "prompt": "Dark instrumental modal jazz, 72 BPM, low tenor saxophone, upright bass and crisp brushed percussion. Steady pulse, simple insistent motif, restrained chromatic color, controlled intensity, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_08_red_against_the_cold/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_08_red_against_the_cold/track_08_red_against_the_cold_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_08_red_against_the_cold/track_08_red_against_the_cold_01.flac"
+                }
+              ],
+              "filename": "track_08_red_against_the_cold_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_08_red_against_the_cold/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_01.flac"
+                }
+              ],
+              "filename": "track_08_red_against_the_cold_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_08_red_against_the_cold/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_02.flac"
+                }
+              ],
+              "filename": "track_08_red_against_the_cold_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_08_red_against_the_cold/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_08_red_against_the_cold/track_08_red_against_the_cold_03.flac"
+                }
+              ],
+              "filename": "track_08_red_against_the_cold_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_09_spending_the_winter_where_winter_lives/631e31d69ad22168",
+          "title": "Track 09 Spending The Winter Where Winter Lives",
+          "order": 9,
+          "prompt": "Intimate instrumental downtempo, 63 BPM, warm electric piano, deep soft bass and subtle brushed percussion. Slow continuous groove, sparse repeating melody, unresolved minor harmonies, bodily stillness, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_09_spending_the_winter_where_winter_lives/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_01.flac"
+                }
+              ],
+              "filename": "track_09_spending_the_winter_where_winter_lives_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_01.flac"
+                }
+              ],
+              "filename": "track_09_spending_the_winter_where_winter_lives_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_02.flac"
+                }
+              ],
+              "filename": "track_09_spending_the_winter_where_winter_lives_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_09_spending_the_winter_where_winter_lives/track_09_spending_the_winter_where_winter_lives_03.flac"
+                }
+              ],
+              "filename": "track_09_spending_the_winter_where_winter_lives_03"
+            }
+          ]
+        },
+        {
+          "id": "roses_where_winter_lives/track_10_after_the_last_rose/1c8c62775c9f7fc8",
+          "title": "Track 10 After The Last Rose",
+          "order": 10,
+          "prompt": "Tender instrumental chamber jazz, 67 BPM, mellow tenor saxophone, soft upright bass and delicate brushed drums. Gentle steady swing, returning lyrical melody, minor-to-major harmonic softening, peaceful fading resolution, no vocals.",
+          "recordings": [
+            {
+              "id": "studio_batch_b344747ef0ef4372/track_10_after_the_last_rose/1",
+              "model": "ACE-Step 1.5 · LM+SFT",
+              "timestamp": 1794560850.698443,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_10_after_the_last_rose/track_10_after_the_last_rose_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_b344747ef0ef4372/track_10_after_the_last_rose/track_10_after_the_last_rose_01.flac"
+                }
+              ],
+              "filename": "track_10_after_the_last_rose_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_10_after_the_last_rose/1",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_01.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_01.flac"
+                }
+              ],
+              "filename": "track_10_after_the_last_rose_01"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_10_after_the_last_rose/2",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_02.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_02.flac"
+                }
+              ],
+              "filename": "track_10_after_the_last_rose_02"
+            },
+            {
+              "id": "studio_batch_c624348b57d34182/track_10_after_the_last_rose/3",
+              "model": "ACE-Step 1.5 · Turbo",
+              "timestamp": 1794559566.959456,
+              "audio": {
+                "format": "flac",
+                "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_03.flac"
+              },
+              "downloads": [
+                {
+                  "format": "flac",
+                  "url": "https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/studio_batch_c624348b57d34182/track_10_after_the_last_rose/track_10_after_the_last_rose_03.flac"
+                }
+              ],
+              "filename": "track_10_after_the_last_rose_03"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
