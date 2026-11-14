@@ -350,11 +350,7 @@ async function loadCatalog(url) {
                         ' scenes · ' + recordings + ' recordings';
   document.querySelector('#catalog-url').value = catalogURL;
   const selectedLibrary = document.querySelector('#library-select');
-  const relativeCatalog = new URL(catalogURL).pathname.split('/').pop();
-  const isLocalCatalog = new URL(catalogURL).origin === window.location.origin &&
-    new URL(catalogURL).pathname === new URL(relativeCatalog, window.location.href).pathname;
-  selectedLibrary.value = isLocalCatalog &&
-    ['catalog.json', 'catalog-legacy.json'].includes(relativeCatalog) ? relativeCatalog : '';
+  selectedLibrary.value = catalogURL === new URL(selectedLibrary.options[0].value, window.location.href).href ? selectedLibrary.options[0].value : '';
   searchScenes();
 }
 
@@ -403,7 +399,7 @@ document.querySelector('#catalog-form').onsubmit = async event => {
     document.querySelector('#catalog-error').textContent = error.message;
   }
 };
-const initial = new URLSearchParams(window.location.search).get('catalog') || 'catalog.json';
+const initial = new URLSearchParams(window.location.search).get('catalog') || 'https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/audio_narrative_catalog.json';
 loadCatalog(initial).catch(error => {
   summary.textContent = 'Catalog unavailable';
   document.querySelector('#catalog-error').textContent =
