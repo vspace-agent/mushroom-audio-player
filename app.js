@@ -350,8 +350,36 @@ async function loadCatalog(url) {
                         ' scenes · ' + recordings + ' recordings';
   document.querySelector('#catalog-url').value = catalogURL;
   const selectedLibrary = document.querySelector('#library-select');
-  selectedLibrary.value = catalogURL === new URL(selectedLibrary.options[0].value, window.location.href).href ? selectedLibrary.options[0].value : '';
+  const matchingLibrary = [...selectedLibrary.options].find(option =>
+    option.value && new URL(option.value, window.location.href).href === catalogURL);
+  selectedLibrary.value = matchingLibrary ? matchingLibrary.value : '';
   searchScenes();
+}
+
+// Discover weekday catalogs at page load; empty repositories remain hidden.
+async function discoverWeekdayLibraries() {
+  const selector = document.querySelector('#library-select');
+  const custom = [...selector.options].find(option => option.value === '');
+  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const checks = await Promise.all(days.map(async day => {
+    const url = 'https://raw.githubusercontent.com/asopozala-prog/' +
+      'mushroom-audio-narrative-library-' + day.toLowerCase() +
+      '/main/audio_narrative_catalog.json';
+    try {
+      const response = await fetch(url, {method: 'HEAD', cache: 'no-store'});
+      return response.ok ? {day, url} : null;
+    } catch {
+      return null;
+    }
+  }));
+  for (const library of checks.filter(Boolean)) {
+    if ([...selector.options].some(option => option.value === library.url)) continue;
+    const option = document.createElement('option');
+    option.value = library.url;
+    option.textContent = library.day + ' Audio Archive';
+    selector.insertBefore(option, custom);
+    if (catalogURL === library.url) selector.value = library.url;
+  }
 }
 
 document.querySelector('#story-sort').addEventListener('change', () => {
@@ -400,6 +428,7 @@ document.querySelector('#catalog-form').onsubmit = async event => {
   }
 };
 const initial = new URLSearchParams(window.location.search).get('catalog') || 'https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/audio_narrative_catalog.json';
+discoverWeekdayLibraries();
 loadCatalog(initial).catch(error => {
   summary.textContent = 'Catalog unavailable';
   document.querySelector('#catalog-error').textContent =
