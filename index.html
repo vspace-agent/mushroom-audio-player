@@ -6,7 +6,7 @@
 <title>Mushroom House · Audio Narrative</title>
 <link rel="stylesheet" href="style.css?v=3">
 <script src="downloads.js?v=2" defer></script>
-<script src="app.js?v=3" defer></script>
+<script src="app.js?v=4" defer></script>
 </head>
 <body>
 <main>
@@ -14,23 +14,10 @@
   <div>
     <p class="eyebrow">MUSHROOM HOUSE 🍄 STUDIO / AUDIO LAB</p>
     <h1>Audio Narrative<span class="cursor">_</span></h1>
-    <p class="intro">Explore stories and musical scenes across interchangeable audio-library repositories.</p>
+    <p class="intro">Explore every archived musical story, organized by batch theme.</p>
   </div>
   <img class="hero-icon" src="assets/musicStudio_06.png" alt="">
 </header>
-<div class="library-picker">
-  <label for="library-select">Available libraries</label>
-  <select id="library-select">
-    <option value="https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/audio_narrative_catalog.json">Mushroom House Audio Library</option>
-    
-    <option value="">Custom catalog URL</option>
-  </select>
-</div>
-<form id="catalog-form" class="catalog-form">
-  <label for="catalog-url">Library catalog URL</label>
-  <input id="catalog-url" type="url" placeholder="https://example.org/catalog.json" required>
-  <button type="submit">Connect library</button>
-</form>
 <p id="catalog-error" class="catalog-error" role="alert"></p>
 <div class="tabs" role="tablist" aria-label="Player views">
   <button id="tab-stories" type="button" role="tab" aria-selected="true">Stories</button>

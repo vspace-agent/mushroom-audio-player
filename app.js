@@ -331,55 +331,89 @@ function showTab(tab) {
   if (searching) searchScenes();
 }
 
-async function loadCatalog(url) {
-  stopPlayback();
-  const target = new URL(url, window.location.href);
-  if (!['https:', 'http:'].includes(target.protocol)) throw Error('Catalog must use HTTP or HTTPS');
-  summary.textContent = 'Loading catalog…';
-  const response = await fetch(target.href);
-  if (!response.ok) throw Error('Catalog HTTP ' + response.status);
-  const data = validateCatalog(await response.json());
-  // Commit URL and data only after validation succeeds.
-  catalogURL = target.href;
-  catalogData = data;
-  renderStories();
-  const scenes = data.stories.reduce((n, story) => n + story.scenes.length, 0);
-  const recordings = data.stories.reduce((n, story) =>
-    n + story.scenes.reduce((m, scene) => m + scene.recordings.length, 0), 0);
-  summary.textContent = data.stories.length + ' stories · ' + scenes +
-                        ' scenes · ' + recordings + ' recordings';
-  document.querySelector('#catalog-url').value = catalogURL;
-  const selectedLibrary = document.querySelector('#library-select');
-  const matchingLibrary = [...selectedLibrary.options].find(option =>
-    option.value && new URL(option.value, window.location.href).href === catalogURL);
-  selectedLibrary.value = matchingLibrary ? matchingLibrary.value : '';
-  searchScenes();
-}
+// Archive repositories are storage only; listeners see one catalog of themes.
+const ARCHIVE_ROOT = 'https://raw.githubusercontent.com/asopozala-prog/';
+const ARCHIVE_FILE = '/main/audio_narrative_catalog.json';
+const ARCHIVE_REPOS = [
+  'mushroom-audio-narrative-library',
+  ...['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+    .map(day => 'mushroom-audio-narrative-library-' + day)
+];
 
-// Discover weekday catalogs at page load; empty repositories remain hidden.
-async function discoverWeekdayLibraries() {
-  const selector = document.querySelector('#library-select');
-  const custom = [...selector.options].find(option => option.value === '');
-  const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-  const checks = await Promise.all(days.map(async day => {
-    const url = 'https://raw.githubusercontent.com/asopozala-prog/' +
-      'mushroom-audio-narrative-library-' + day.toLowerCase() +
-      '/main/audio_narrative_catalog.json';
+async function loadUnifiedCatalog() {
+  stopPlayback();
+  summary.textContent = 'Loading archived batches…';
+  const results = await Promise.all(ARCHIVE_REPOS.map(async (repo, index) => {
+    const url = ARCHIVE_ROOT + repo + ARCHIVE_FILE;
     try {
-      const response = await fetch(url, {method: 'HEAD', cache: 'no-store'});
-      return response.ok ? {day, url} : null;
-    } catch {
-      return null;
+      const response = await fetch(url, {cache: 'no-store'});
+      if (response.status === 404 && index !== 0) return {missing: true};
+      if (!response.ok) throw Error('HTTP ' + response.status);
+      return {data: validateCatalog(await response.json()), url};
+    } catch (error) {
+      return {error: repo + ': ' + error.message};
     }
   }));
-  for (const library of checks.filter(Boolean)) {
-    if ([...selector.options].some(option => option.value === library.url)) continue;
-    const option = document.createElement('option');
-    option.value = library.url;
-    option.textContent = library.day + ' Audio Archive';
-    selector.insertBefore(option, custom);
-    if (catalogURL === library.url) selector.value = library.url;
+
+  if (results[0].error || results[0].missing)
+    throw Error('Main archive unavailable: ' + (results[0].error || 'not found'));
+
+  const themes = new Map();
+  const seenRecordings = new Set();
+  const warnings = [];
+  for (const result of results) {
+    if (result.missing) continue;
+    if (result.error) {
+      warnings.push(result.error);
+      continue;
+    }
+    for (const sourceStory of result.data.stories) {
+      let story = themes.get(sourceStory.id);
+      if (!story) {
+        story = {...sourceStory, scenes: []};
+        themes.set(sourceStory.id, story);
+      }
+      const scenes = new Map(story.scenes.map(scene => [scene.id, scene]));
+      for (const sourceScene of sourceStory.scenes) {
+        let scene = scenes.get(sourceScene.id);
+        if (!scene) {
+          scene = {...sourceScene, recordings: []};
+          story.scenes.push(scene);
+          scenes.set(scene.id, scene);
+        }
+        for (const sourceRecording of sourceScene.recordings) {
+          if (seenRecordings.has(sourceRecording.id)) continue;
+          seenRecordings.add(sourceRecording.id);
+          const audio = {...sourceRecording.audio,
+            url: resolveURL(sourceRecording.audio.url, result.url)};
+          const downloads = Array.isArray(sourceRecording.downloads)
+            ? sourceRecording.downloads.map(option => ({
+                ...option,
+                url: resolveURL(option.url, result.url)
+              }))
+            : sourceRecording.downloads;
+          scene.recordings.push({...sourceRecording, audio, downloads});
+        }
+      }
+    }
   }
+
+  const combined = validateCatalog({
+    schema: 'mushroom.audio-narrative.catalog',
+    schema_version: 1,
+    stories: [...themes.values()]
+  });
+  catalogURL = results[0].url;
+  catalogData = combined;
+  renderStories();
+  const sceneCount = combined.stories.reduce((n, story) => n + story.scenes.length, 0);
+  const recordingCount = combined.stories.reduce((n, story) =>
+    n + story.scenes.reduce((m, scene) => m + scene.recordings.length, 0), 0);
+  summary.textContent = combined.stories.length + ' themes · ' + sceneCount +
+    ' scenes · ' + recordingCount + ' recordings';
+  document.querySelector('#catalog-error').textContent =
+    warnings.length ? 'Some archives could not be loaded: ' + warnings.join('; ') : '';
+  searchScenes();
 }
 
 document.querySelector('#story-sort').addEventListener('change', () => {
@@ -398,39 +432,7 @@ for (const selector of ['#search-text', '#filter-style', '#filter-instrument',
                          '#filter-mood', '#bpm-min', '#bpm-max']) {
   document.querySelector(selector).addEventListener('input', searchScenes);
 }
-document.querySelector('#library-select').addEventListener('change', async event => {
-  const choice = event.target.value;
-  if (!choice) {
-    document.querySelector('#catalog-url').focus();
-    return;
-  }
-  try {
-    await loadCatalog(choice);
-    const next = new URL(window.location.href);
-    next.searchParams.set('catalog', choice);
-    history.replaceState(null, '', next);
-    document.querySelector('#catalog-error').textContent = '';
-  } catch (error) {
-    document.querySelector('#catalog-error').textContent = error.message;
-  }
-});
-document.querySelector('#catalog-form').onsubmit = async event => {
-  event.preventDefault();
-  const url = document.querySelector('#catalog-url').value.trim();
-  try {
-    await loadCatalog(url);
-    const next = new URL(window.location.href);
-    next.searchParams.set('catalog', catalogURL);
-    history.replaceState(null, '', next);
-    document.querySelector('#catalog-error').textContent = '';
-  } catch (error) {
-    document.querySelector('#catalog-error').textContent = error.message;
-  }
-};
-const initial = new URLSearchParams(window.location.search).get('catalog') || 'https://raw.githubusercontent.com/asopozala-prog/mushroom-audio-narrative-library/main/audio_narrative_catalog.json';
-discoverWeekdayLibraries();
-loadCatalog(initial).catch(error => {
-  summary.textContent = 'Catalog unavailable';
-  document.querySelector('#catalog-error').textContent =
-    error.message + ' · Enter a reachable catalog URL above.';
+loadUnifiedCatalog().catch(error => {
+  summary.textContent = 'Archive catalog unavailable';
+  document.querySelector('#catalog-error').textContent = error.message;
 });
